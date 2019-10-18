@@ -48,6 +48,9 @@ is equivalent to
 
     mpv video.mp4 -vf tblend=c0_mode=difference,eq=contrast=2
 
+# black and wihte filter
+
+`eq=saturation=0`
 
 See source for details on default text-entry key-bindings for REPL -- they should be straightforward (i.e., `home` to beginning of line, `up` to go to last entered text, etc.). 
 
